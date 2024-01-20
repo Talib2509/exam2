@@ -1,0 +1,320 @@
+@import "variables";
+@import "reset";
+@import "mixin";
+
+.header {
+    padding: 15px 0;
+
+    .top {
+        @include js;
+        flex-wrap: wrap;
+        row-gap: 20px;
+
+        .left {
+            @include df;
+            gap: 1rem;
+        }
+
+        .right {
+            @include df;
+            gap: 1rem;
+            flex-wrap: wrap;
+            row-gap: 20px;
+
+        }
+    }
+
+    nav {
+        padding: 25px 0;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        width: 100%;
+
+        .nav {
+            @include js;
+
+            .logo {
+                @include jc;
+
+                p {
+                    font-size: $logofont;
+                    font-weight: 900;
+
+                }
+
+                span {
+                    width: 10px;
+                    height: 10px;
+                    background-color: $oranged;
+                    margin-top: 20px
+                }
+
+
+            }
+
+            .list {
+                .close {
+                    display: none
+                }
+
+                ul {
+                    @include df;
+                    gap: 1rem;
+                }
+            }
+
+            .menu {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .header {
+        nav {
+            .nav {
+                .list {
+                    .close {
+                        display: block;
+                    }
+
+                    position: fixed;
+                    background-color: white;
+                    width: 200px;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    padding: 100px 20px;
+                    right: -400px;
+                    transition: all .5s ease;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+                }
+
+                .active {
+                    right: 0;
+                }
+
+                .menu {
+                    display: block;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+#banner {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.429)), url(../img/hero_2.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include jc;
+    flex-direction: column;
+
+
+
+    .banner {
+        color: white;
+        width: 60%;
+        padding-left: 0;
+
+        h1 {
+            font-weight: 900;
+            font-size: 80px;
+            color: rgb(255, 255, 255);
+            line-height: 96px
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            line-height: 30px
+        }
+
+        .button {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 20px;
+
+            button {
+                margin-top: 50px;
+                padding: 15px 30px;
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 18px;
+                transition: all .6s ease;
+                border: none;
+
+                &:nth-child(1) {
+                    background-color: transparent;
+                    color: white;
+                    border: 2px solid white;
+
+                    &:hover {
+                        background-color: white;
+                        color: #000;
+
+                    }
+                }
+
+                &:nth-child(2) {
+                    background-color: white;
+
+                    border: 2px solid white;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: white;
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+    #banner {
+        .banner {
+            width: 100%;
+
+            .button {
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#products {
+    padding: 100px 0;
+
+    .products {
+        .head {
+            text-align: center;
+
+            .top {
+                font-weight: 700;
+                font-size: 13px;
+                transform: uppercase;
+                letter-spacing: 2.6px;
+                line-height: 15.6px;
+                color: rgb(173, 181, 189);
+            }
+
+            h2 {
+                font-weight: 900;
+                font-size: 40px;
+
+
+                line-height: 36px;
+                color: rgb(0, 0, 0)
+            }
+
+            .bottom {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 27.2px;
+                color: rgb(128, 128, 128);
+                width: 40%;
+                margin: auto;
+            }
+
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 100px 0;
+
+            .card {
+                max-width: 350px;
+                margin: auto;
+
+                .info {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+
+                    .button {
+                        @include js;
+                        flex-wrap: wrap;
+                        column-gap: 20px;
+                        row-gap: 20px;
+
+                        button {
+                            margin-top: 50px;
+                            padding: 15px 30px;
+                            font-weight: 900;
+                            font-size: 16px;
+                            line-height: 18px;
+                            transition: all .6s ease;
+                            border: 2px solid black;
+
+                            &:nth-child(1) {
+                                background-color: black;
+                                color: white;
+
+
+                                &:hover {
+                                    background-color: white;
+                                    color: #000;
+
+                                }
+                            }
+
+                            &:nth-child(2) {
+                                background-color: white;
+
+
+
+                                &:hover {
+                                    background-color: black;
+                                    color: white;
+
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+#table {
+    padding: 100px;
+
+    .table {
+        table {
+            width: 100%;
+             
+        thead,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        }
+    }
+}

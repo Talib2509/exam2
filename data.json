@@ -1,0 +1,106 @@
+{
+  "all": [
+    {
+      "id": 1,
+      "name": "Flour - Bread",
+      "info": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "price": 196.49,
+      "img": "http://dummyimage.com/172x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Temperature Recording Station",
+      "info": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+      "price": 130.62,
+      "img": "http://dummyimage.com/164x100.png/dddddd/000000"
+    },
+    {
+      "id": 3,
+      "name": "Kellogs Raisan Bran Bars",
+      "info": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "price": 649.1,
+      "img": "http://dummyimage.com/166x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 4,
+      "name": "Beef - Montreal Smoked Brisket",
+      "info": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "price": 856.43,
+      "img": "http://dummyimage.com/227x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate - Semi Sweet",
+      "info": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+      "price": 233.48,
+      "img": "http://dummyimage.com/171x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 6,
+      "name": "Honey - Comb",
+      "info": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+      "price": 61.98,
+      "img": "http://dummyimage.com/179x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 7,
+      "name": "Wine - Lou Black Shiraz",
+      "info": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+      "price": 919.91,
+      "img": "http://dummyimage.com/152x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 8,
+      "name": "Calypso - Pineapple Passion",
+      "info": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+      "price": 43.14,
+      "img": "http://dummyimage.com/240x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 9,
+      "name": "Pork - Backfat",
+      "info": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+      "price": 749.05,
+      "img": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 10,
+      "name": "Ham - Virginia",
+      "info": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+      "price": 470.07,
+      "img": "http://dummyimage.com/139x100.png/5fa2dd/ffffff"
+    }
+  ],
+  "basket": [
+    {
+      "id": 4,
+      "name": "Beef - Montreal Smoked Brisket",
+      "info": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "price": 856.43,
+      "img": "http://dummyimage.com/227x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 3,
+      "name": "Kellogs Raisan Bran Bars",
+      "info": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "price": 649.1,
+      "img": "http://dummyimage.com/166x100.png/5fa2dd/ffffff"
+    }
+  ],
+  "favorite": [
+    {
+      "id": 2,
+      "name": "Temperature Recording Station",
+      "info": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+      "price": 130.62,
+      "img": "http://dummyimage.com/164x100.png/dddddd/000000"
+    },
+    {
+      "id": 1,
+      "name": "Flour - Bread",
+      "info": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "price": 196.49,
+      "img": "http://dummyimage.com/172x100.png/cc0000/ffffff"
+    }
+  ]
+}
